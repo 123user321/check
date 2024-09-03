@@ -1,0 +1,20 @@
+@charset "utf-8";
+html,body{height:100%;margin:0;padding:0;}
+body{font-family:Arial,Helvetica,sans-serif;}
+
+p{padding:0;margin:0;}
+
+/*Придаем стили форме*/
+h1{text-align:center;}
+input,textarea{width:100%;padding:0 3%;margin:9px 0;box-sizing:border-box;border:1px solid #c7bebe;outline:none;}
+input:focus,textarea:focus{border:1px solid #135424;}
+
+#forma{width:700px;margin:0 auto;}
+#forma input[type=text]{height:35px;}
+#forma textarea{height:130px;padding:10px 3%;resize:none;}
+#forma input[type=submit]{height:38px;cursor:pointer;background:#257d3c;color:#fff;font-size:17px;text-transform:uppercase;transition:.2s ease;}
+#forma input[type=submit]:hover{background:#135424;}
+
+.mes_ok,.mes_err{font-size:17px;padding:5px;text-align:center;}
+.mes_err{color:#a51e1e;}
+.mes_ok{color:#33a51e;}
